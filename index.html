@@ -1,75 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>SonicShop | The Sonic Group Marketplace</title>
 
+    <meta name="description"
+          content="Engineering, Automotive, Technology and Industrial Solutions from the Sonic Group of Companies.">
+
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
         }
 
-        body {
-            background: #0d1117;
-            color: #f2f2f2;
-            font-family: Arial, Helvetica, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
+        body{
+
+            background:#0d1117;
+            color:#f0f0f0;
+            font-family:Segoe UI,Arial,sans-serif;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            min-height:100vh;
+
         }
 
-        h1 {
-            font-size: 3.5rem;
-            color: #00bfff;
-            margin-bottom: 15px;
+        .container{
+
+            max-width:900px;
+            width:90%;
+            text-align:center;
+
         }
 
-        h2 {
-            font-weight: normal;
-            color: #d0d0d0;
-            margin-bottom: 40px;
+        h1{
+
+            font-size:4rem;
+            color:#19b5ff;
+            margin-bottom:10px;
+
         }
 
-        p {
-            font-size: 1.2rem;
-            color: #a8a8a8;
-            line-height: 1.7;
+        h2{
+
+            font-weight:300;
+            color:#d6d6d6;
+            margin-bottom:45px;
+
         }
 
-        .footer {
-            margin-top: 50px;
-            font-size: 0.9rem;
-            color: #666;
+        .tagline{
+
+            font-size:1.25rem;
+            color:#ffffff;
+            margin-bottom:35px;
+            line-height:1.6;
+
         }
+
+        .description{
+
+            color:#a8a8a8;
+            line-height:1.8;
+            font-size:1.05rem;
+            margin-bottom:45px;
+
+        }
+
+        .coming{
+
+            display:inline-block;
+
+            padding:12px 28px;
+
+            border:1px solid #19b5ff;
+
+            color:#19b5ff;
+
+            text-decoration:none;
+
+            border-radius:5px;
+
+            transition:.25s;
+
+            margin-bottom:40px;
+
+        }
+
+        .coming:hover{
+
+            background:#19b5ff;
+            color:#0d1117;
+
+        }
+
+        .contact{
+
+            color:#8d8d8d;
+            font-size:.95rem;
+            margin-bottom:20px;
+
+        }
+
+        .contact a{
+
+            color:#19b5ff;
+            text-decoration:none;
+
+        }
+
+        footer{
+
+            color:#666;
+            font-size:.85rem;
+
+        }
+
     </style>
+
 </head>
 
 <body>
 
-<div>
+<div class="container">
 
     <h1>SonicShop</h1>
 
     <h2>The Sonic Group Marketplace</h2>
 
-    <p>
-        Welcome.<br><br>
+    <div class="tagline">
+
+        Engineering • Automotive • Technology • Industrial
+
+    </div>
+
+    <div class="description">
+
+        Welcome to SonicShop.
+
+        <br><br>
 
         SonicShop is the online marketplace for the Sonic Group of Companies,
         bringing together engineering, automotive, industrial,
         technology and future ventures under one platform.
-    </p>
 
-    <div class="footer">
-        © 2026 Sonic Group. All rights reserved.
+        <br><br>
+
+        Our full marketplace is currently under development.
+
     </div>
+
+    <a class="coming" href="#">
+        Coming Soon
+    </a>
+
+    <div class="contact">
+
+        Say hello:
+        <br><br>
+
+        <a href="mailto:hello@sonicshop.co.za">
+            hello@sonicshop.co.za
+        </a>
+
+    </div>
+
+    <footer>
+
+        © 2026 Sonic Group. All rights reserved.
+
+    </footer>
 
 </div>
 
 </body>
+
 </html>
